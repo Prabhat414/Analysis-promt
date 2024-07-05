@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    font-family: helvetica;
+    display: flex;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.966);
+}
+.frist1{
+    width: 18%;
+    border-right:  1px solid gray;
+    height: 100%;
+}
+.one1{
+    width: 100%;
+    padding: 20px;
+}
+.one1 > img{
+    margin: 20px;
+    width: 80px;
+    border:  1px solid blue;
+    border-radius: 50%;
+    height: 80px;
+}
+.one{
+    width: 100%;
+    padding: 10px;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.option{
+    width: 90%;
+    color: white;
+    font-size: 10px;
+    margin-left: 10%;
+    display: flex;
+}
+.option  > i{
+    margin: 0px 15px;
+    font-size: 25px;
+
+
+}
+.option > h1{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.836);
+    font-weight: 300;
+}
+.frist2{
+    height: 100%;
+    width: 82%;
+    position: relative;
+}
+.frist2 > h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.822);
+    margin: 20px 40px;
+
+}
+.frist2 > h2{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.801);
+    margin: 20px 40px;
+}
+.analysis{
+    background-color: rgb(59,59,59);
+    display: flex;
+    width: 55%;
+    position: relative;
+    box-shadow: 0 0 20px black;
+    margin: 40px;
+    height: 40%;
+    position: relative;
+}
+.analysis > h1{
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.753);
+}
+.ri{
+    width: 25%;
+    justify-content: space-around;
+    display: flex;
+    margin: 10px 60%;
+    gap: 10px;
+}
+.ri > i{
+    font-size: 20px;
+    color: gray;
+}
+.ri > h2{
+    font-size: 10px;
+    margin: 5px 0;
+    color: rgba(255, 255, 255, 0.692);
+}
+.show{
+    width: 60%;
+    justify-content: space-around;
+    display: flex;
+    color: white;
+    margin: -25px 0;
+}
+.show > h1{
+    font-size: 20px;
+    font-weight: 400;
+}
+.show > button{
+    padding: 8px 24px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+.parts{
+    width: 60%;
+    height: 30%;
+    color: white;
+    margin-top: 28px;
+    position: relative;
+    
+}
+.uper{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.box{
+    width: 40%;
+    height: 80%;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    background-color: rgb(59,59,59);
+    box-shadow:  0 0 10px black;
+}
+.lower{
+    height: 50%;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+#app > i{
+    font-size: 35px;
+    margin: 10px 50px;
+    color: blueviolet;
+}
+#app > h1{
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 15px -30px;
+}
+#app > span{
+    font-size: 15px;
+    font-weight: 400;
+    top: 60%;
+    left: 18%;
+    position: absolute;
+    color: rgb(120, 137, 189);
+}
+#insta > i{
+    font-size: 35px;
+    margin: 10px 50px;
+    color: #833AB4;
+    
+}
+#insta > h1{
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 15px -35px;
+}
+#insta > span{
+    font-size: 15px;
+    font-weight: 400;
+    
+    margin: 50px -50px;
+    color: rgb(120, 137, 189);
+}
+#spo > i{
+    font-size: 35px;
+    margin: 10px 50px;
+    color: rgb(8, 190, 17);
+}
+#spo > h1{
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 15px -30px;
+}
+#spo > span{
+    font-size: 15px;
+    font-weight: 400;
+    top: 60%;
+    margin: 50px -35px;
+    left: 15%;
+    color: rgb(120, 137, 189);
+}
+#chro > i{
+    font-size: 35px;
+    margin: 10px 50px;
+    color: #4285F4;
+}
+#chro > h1{
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 15px -35px;
+}
+#chro > span{
+    font-size: 15px;
+    font-weight: 400;
+    top: 60%;
+    left: 15%;
+    margin: 50px -30px;
+    color: rgb(120, 137, 189);
+}
+.right{
+    color: white;
+    width: 40%;
+    position: absolute;
+    position: relative;
+    display: flex;
+    margin: -617px 662px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+}
+.right-box{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    margin-left: 40px;
+    background-color: rgb(59,59,59);
+    height: 30%;
+}
+.right-box > i{
+    font-size: 35px;
+    margin: 10px 50px;
+    color: #4285F4;
+}
+.right-box > h1{
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 15px -35px;
+}
+.right-box > span{
+    font-size: 15px;
+    font-weight: 400;
+    top: 60%;
+    left: 15%;
+    margin: 50px -10px;
+    color: rgb(120, 137, 189);
+}
+.right-box >h3{
+    font-size: 15px;
+    color: #4285F4;
+    margin: 30px 0;
+}
+
+.days{
+    color: white;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    height: 70%;
+    bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.day1 .height1{
+    background-color: #7489F4;
+    width: 35px;
+    margin-top: 110px;
+    border-radius: 5px;
+    height: 40px;
+}
+.day1 > h1{
+    font-size: 15px;
+    margin-left: 2px;
+    font-weight: 300;
+}
+.day2 > h1{
+    font-size: 15px;
+    margin-left: 2px;
+    font-weight: 300;
+}.day3 > h1{
+    font-size: 15px;
+    margin-left: 2px;
+    font-weight: 300;
+}.day4 > h1{
+    font-size: 15px;
+    margin-left: 2px;
+    font-weight: 300;
+}.day5 > h1{
+    font-size: 15px;
+    margin-left: 2px;
+    font-weight: 300;
+}.day6 > h1{
+    font-size: 15px;
+    margin-left: 2px;
+    font-weight: 300;
+}.day7 > h1{
+    font-size: 15px;
+    margin-left: 2px;
+    font-weight: 300;
+}
+.day2 .height2{
+    background-color: #7489F4;
+
+    width: 35px;
+    margin-top: 80px;
+    border-radius: 5px;
+    height: 70px;
+}
+.day3 .height3{
+    background-color: #7489F4;
+    width: 35px;
+    margin-top: 50px;
+    border-radius: 5px;
+    height: 100px;
+}.day4 .height4{
+    background-color: #7489F4;
+    width: 35px;
+    margin-top: 50px;
+    border-radius: 5px;
+    height: 100px;
+}.day5 .height5{
+    background-color: #7489F4;
+    width: 35px;
+    margin-top: 70px;
+    border-radius: 5px;
+    height: 80px;
+}.day6 .height6{
+    background-color: #7489F4;
+    width: 35px;
+    margin-top: 80px;
+    border-radius: 5px;
+    height: 70px;
+}
+.day7 .height7{
+    background-color: #7489F4;
+    width: 35px;
+    margin-top: 90px;
+    border-radius: 5px;
+    height: 60px;
+}
